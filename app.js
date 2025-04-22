@@ -262,7 +262,7 @@ function ShowCitations({citations, pageActuelle, setPageActuelle}){
     return (
         <Container fluid style={{textAlign: "center"}}>
             <Row><Col xs = {5}>Citations</Col> <Col xs = {3}>Personnage et Photo</Col> <Col xs={2}>Audio</Col> </Row>
-            {chunkedCitations.length >= 0 && chunkedCitations[pageActuelle].map((citation, index) => (
+            {chunkedCitations.length > 0 && chunkedCitations[pageActuelle].map((citation, index) => (
                 <Row key={index}>
                     <Col xs={5}>{citation.citation}</Col>
                     -
@@ -282,8 +282,13 @@ function ShowCitations({citations, pageActuelle, setPageActuelle}){
                     </Col>
                 </Row>
             ))}
-            <button onClick={previousPage}>Page Précedente</button>
-            <button onClick={nextPage}>Page Suivante</button>
+            { chunkedCitations.length > 1 && (
+                <div>
+                    <button onClick={previousPage}>Page Précedente</button>
+                    <button onClick={nextPage}>Page Suivante</button>
+                </div>
+            )
+            }
         </Container>
     )
 }
