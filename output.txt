@@ -1,0 +1,32 @@
+{'audio_file': '2_3_poils_de_Q.mp3', 'quote_associated': "Vous n'avez qu'à considérer que je suis officiellement cul nu."}
+{'audio_file': 'ah_ah_mais_vous_etes_marteau_et_regardez_ca_ca_pisse_le_sang.mp3', 'quote_associated': 'Ah ah, mais vous êtes marteau\xa0! Et regardez ça, ça pisse le sang\xa0!'}
+{'audio_file': 'ah_bah_alors_la_je_les_attends_les_mecs.mp3', 'quote_associated': 'Ah bah alors là je les attends les mecs !'}
+{'audio_file': 'ah_bravo_bah_vous_parlez_d_un_hero.mp3', 'quote_associated': 'Ah bravo, bah vous parlez d’un héros !'}
+{'audio_file': 'ah_cest_ca.mp3', 'quote_associated': "Ah mais c'est ça qui pue !"}
+{'audio_file': 'ah_le_printemps_on_crame_des_mecs.mp3', 'quote_associated': 'Ah, le printemps\xa0! La nature se réveille, les oiseaux reviennent, on crame des mecs.'}
+{'audio_file': 'ah_mais_arretez_de_gueuler_comme_un_con.mp3', 'quote_associated': 'Ah mais arrêtez de gueuler comme un con !'}
+{'audio_file': 'ah_bah_alors_la_je_les_attends_les_mecs.mp3', 'quote_associated': 'Ah bah alors là je les attends les mecs !'}
+{'audio_file': 'ah_bravo_bah_vous_parlez_d_un_hero.mp3', 'quote_associated': 'Ah bravo, bah vous parlez d’un héros !'}
+{'audio_file': 'ah_cest_ca.mp3', 'quote_associated': "Ah mais c'est ça qui pue !"}
+{'audio_file': 'ah_le_printemps_on_crame_des_mecs.mp3', 'quote_associated': 'Ah, le printemps\xa0! La nature se réveille, les oiseaux reviennent, on crame des mecs.'}
+{'audio_file': 'ah_mais_arretez_de_gueuler_comme_un_con.mp3', 'quote_associated': 'Ah mais arrêtez de gueuler comme un con !'}
+{'audio_file': 'ah_le_printemps_on_crame_des_mecs.mp3', 'quote_associated': 'Ah, le printemps\xa0! La nature se réveille, les oiseaux reviennent, on crame des mecs.'}
+{'audio_file': 'ah_mais_arretez_de_gueuler_comme_un_con.mp3', 'quote_associated': 'Ah mais arrêtez de gueuler comme un con !'}
+{'audio_file': 'ah_mais_arretez_de_gueuler_comme_un_con.mp3', 'quote_associated': 'Ah mais arrêtez de gueuler comme un con !'}
+{'audio_file': 'ah_nan_mais_quand_on_est_pas_habitue_c_est_drolement_impressionnant_la_magie.mp3', 'quote_associated': "C'est pour t'apprendre à faire confianc
+e à la magie, parce qu'il n'y a que ça qui marche sur Terre, Arturus, la magie. Le reste, ça ne vaut pas un rond."}
+{'audio_file': 'ah_non_ca_c_est_que_nous.mp3', 'quote_associated': "Ah non, ce soir c'est beaucoup du clodo, mais c'est pas ceux là de votre équipe."}
+{'audio_file': 'ah_non_la_aujourd_hui_ca_passera_pas.mp3', 'quote_associated': 'Ah non, là aujourd’hui, ça passera pas'}
+{'audio_file': 'ah_ouais_je_l_ai_fait_trop_fulgurant_la_ca_va.mp3', 'quote_associated': 'Ah\xa0! oui… j’ l’ai fait trop fulgurant, là. Ça va\xa0?'}
+{'audio_file': 'ah_oui_bravo_une_belle_lecon_de_sport.mp3', 'quote_associated': 'Ah oui, bravo, une belle leçon de sport !'}
+{'audio_file': 'ah_parce_que_c_est_la_seule_alternative_que_vous_me_proposez.mp3', 'quote_associated': 'Ah parce que c’est la seule alternative que vous me proposez ?'}
+{'audio_file': 'ah_qu_est_ce_que_vous_voulez_mon_petit_bohort.mp3', 'quote_associated': "Ah qu'est-ce que vous voulez mon petit Bohort ?"}
+{'audio_file': 'ah_si_moi_j_irai_me_recoucher_avant_de_prendre_un_pain.mp3', 'quote_associated': 'Ah si moi j’irai me recoucher avant de prendre un pain.'}
+{'audio_file': 'allez_boire_un_coup.mp3', 'quote_associated': "(À Arthur et Lancelot)Ah bah ça va, excusez moi d'avoir paniqué... Finalement c'est pas des démons. C'est juste les pires bestioles de tout l'univers. Mettons deux gardes là devant et allons boire un coup !"}
+{'audio_file': 'alors_ca_vient_ptite_bite.mp3', 'quote_associated': "Sire ! Mon père est peut-être unijambiste, mais moi, ma femme n'a pas de moustache ! […] Alors ça vient ? p'tite bite !"}
+{'audio_file': 'alors_des_qu_il_s_agit_d_aller_se_dorer_les_miches_en_armorique.mp3', 'quote_associated': 'Et ben vous inviterez vos copains à la maison, on vous organisera une petite après-midi à la plage et vous pourrez faire des pâtés !'}
+{'audio_file': 'alors_le_ratichon_on_a_un_ptit_creux.mp3', 'quote_associated': 'Alors, le ratichon\xa0! On a un p’tit creux\xa0?'}
+{'audio_file': 'alors_si_j_ai_bien_resume_le_truc_vous_allez_creuser_trois_pieds_et_demi_sur_toute_la_bretagne.mp3', 'quote_associated': "Sire, on en a déjà parlé de la pierre\xa0! Je peux pas monter une pierre d'une toise et demi dans un escalier à colimaçon\xa0!"}
+{'audio_file': 'animaux_de_la_foret.mp3', 'quote_associated': 'J’irai me coucher quand vous m’aurez juré qu’il n’y a pas dans cette forêt d’animal plus dangereux que le lapin adulte !'}
+{'audio_file': 'apres_pour_le_detail_je_sais_pas.mp3', 'quote_associated': 'Après, moi, pour le détail, je sais pas'}
+{'audio_file': 'arretez_de_parler_aux_gens.mp3', 'quote_associated': 'Non, moi j’crois qu’il faut qu’vous arrêtiez d’essayer d’dire des trucs. Ça vous fatigue, déjà, et pour les autres, vous vous rendez pas compte de c’que c’est. Moi quand vous faites ça, ça me fout une angoisse… j’pourrais vous tuer, j’crois. De chagrin, hein\xa0! J’vous jure c’est pas bien. Il faut plus que vous parliez avec des gens.'}

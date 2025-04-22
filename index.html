@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaamelott Citations App</title>
+
+    <link rel="icon" type="image/x-icon" href="https://github.com/sin0light/api-kaamelott/blob/master/assets/images/favicon.gif?raw=true">
+    
+    <!-- React -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    
+    <!-- Babel -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    
+    
+    <!-- React-Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/react-bootstrap@2.8.0/dist/react-bootstrap.min.js"></script>
+
+</head>
+<body>
+    <div id="root"></div>
+    
+    
+    <script type="text/babel" src="app.js"></script>
+
+   
+    <style>
+            
+            body {
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              background-image: url('https://github.com/sin0light/api-kaamelott/blob/master/assets/images/kaamelott.jpg?raw=true'); /* <-- Ton chemin ici */
+              background-size: cover;
+              background-position: center;
+              background-attachment: fixed;
+              background-repeat: no-repeat;
+              margin: 0;
+              padding: 20px;
+            }
+            
+
+            .container-fluid {
+              background-color: rgba(255, 255, 255, 0.85);
+              border-radius: 15px;
+              padding: 20px;
+            }
+            
+          /* Titre */
+            h1 {
+              text-align: center;
+              margin-bottom: 30px;
+              color: #343a40;
+            }
+            
+            /* Label et Option */
+            select {
+              padding: 8px;
+              margin-top: 5px;
+              border-radius: 5px;
+              border: 1px solid #ced4da;
+              width: 100%;
+            }
+            
+            label {
+              font-weight: bold;
+              margin-top: 10px;
+              display: block;
+            }
+            
+            /* Boutons */
+            button {
+              background-color: #007bff;
+              color: white;
+              border: none;
+              padding: 8px 16px;
+              margin: 10px 5px 0 0;
+              border-radius: 5px;
+              cursor: pointer;
+              transition: background-color 0.2s ease;
+            }
+            
+            button:hover {
+              background-color: #0056b3;
+            }
+            
+            /* Un peu d'espace */
+            .row {
+              margin-bottom: 20px;
+              align-items: center;
+            }
+            
+            /*  Texte des citations */
+            .col-5 {
+              font-size: 1rem;
+              text-align: left;
+            }
+            
+            /* Image */
+            img {
+              max-width: 100px;
+              height: auto;
+              border-radius: 10px;
+              margin-top: 10px;
+            }
+            
+            /* player audio */
+            audio {
+              width: 100%;
+            }
+            
+            /* Bouton de Pagination */
+            button:disabled {
+              background-color: #6c757d;
+              cursor: not-allowed;
+            }
+            </style>
+            
+    </style>
+</body>
+</html>
