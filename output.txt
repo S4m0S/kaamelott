@@ -30,3 +30,85 @@ e à la magie, parce qu'il n'y a que ça qui marche sur Terre, Arturus, la magie
 {'audio_file': 'animaux_de_la_foret.mp3', 'quote_associated': 'J’irai me coucher quand vous m’aurez juré qu’il n’y a pas dans cette forêt d’animal plus dangereux que le lapin adulte !'}
 {'audio_file': 'apres_pour_le_detail_je_sais_pas.mp3', 'quote_associated': 'Après, moi, pour le détail, je sais pas'}
 {'audio_file': 'arretez_de_parler_aux_gens.mp3', 'quote_associated': 'Non, moi j’crois qu’il faut qu’vous arrêtiez d’essayer d’dire des trucs. Ça vous fatigue, déjà, et pour les autres, vous vous rendez pas compte de c’que c’est. Moi quand vous faites ça, ça me fout une angoisse… j’pourrais vous tuer, j’crois. De chagrin, hein\xa0! J’vous jure c’est pas bien. Il faut plus que vous parliez avec des gens.'}
+{'audio_file': 'arthour.mp3', 'quote_associated': 'Arthour !… Couhillère !'}
+{'audio_file': 'assiette_fromage.mp3', 'quote_associated': 'Arthour\xa0! Pas changer assiette pour fromage\xa0!'}
+{'audio_file': 'attendez_il_faut_que_ca_soit_vrai_tout_ce_qu_on_dit_la.mp3', 'quote_associated': 'Attendez, il faut que ça soit vrai tout ce qu’on dit là !  '}
+{'audio_file': 'attention_attention_a_un_moment_il_y_a_des_granges_qui_vont_se_mettre_a_flamber_il_faudra_pas_demander_d_ou_sa_vient.mp3', 'quote_associated': "Attention, à un moment, il y a des granges qui vont se mettre à flamber, faudra pas demander d'où ça vient !"}
+{'audio_file': 'au_gros_sel_qu_est_ce_que_c_est_ces_conneries_vous_me_prenez_pour_une_epaule_d_agneau.mp3', 'quote_associated': "Au gros sel ? Qu'est ce que c'est que ces conneries ? Vous me prenez pour une épaule d'agneau !"}
+{'audio_file': 'avec_sa_couille.mp3', 'quote_associated': 'Avec votre dégaine de crevette, faites gaffe à pas vous faire bouffer par un mérou.'}
+{'audio_file': 'au_gros_sel_qu_est_ce_que_c_est_ces_conneries_vous_me_prenez_pour_une_epaule_d_agneau.mp3', 'quote_associated': "Au gros sel ? Qu'est ce que c'est que ces conneries ? Vous me prenez pour une épaule d'agneau !"}
+{'audio_file': 'avec_sa_couille.mp3', 'quote_associated': 'Avec votre dégaine de crevette, faites gaffe à pas vous faire bouffer par un mérou.'}
+{'audio_file': 'au_gros_sel_qu_est_ce_que_c_est_ces_conneries_vous_me_prenez_pour_une_epaule_d_agneau.mp3', 'quote_associated': "Au gros sel ? Qu'est ce que c'est que ces conneries ? Vous me prenez pour une épaule d'agneau !"}
+{'audio_file': 'avec_sa_couille.mp3', 'quote_associated': 'Avec votre dégaine de crevette, faites gaffe à pas vous faire bouffer par un mérou.'}
+{'audio_file': 'au_gros_sel_qu_est_ce_que_c_est_ces_conneries_vous_me_prenez_pour_une_epaule_d_agneau.mp3', 'quote_associated': "Au gros sel ? Qu'est ce que c'est que ces conneries ? Vous me prenez pour une épaule d'agneau !"}
+{'audio_file': 'avec_sa_couille.mp3', 'quote_associated': 'Avec votre dégaine de crevette, faites gaffe à pas vous faire bouffer par un mérou.'}
+{'audio_file': 'au_gros_sel_qu_est_ce_que_c_est_ces_conneries_vous_me_prenez_pour_une_epaule_d_agneau.mp3', 'quote_associated': "Au gros sel ? Qu'est ce que c'est que ces conneries ? Vous me prenez pour une épaule d'agneau !"}
+{'audio_file': 'avec_sa_couille.mp3', 'quote_associated': 'Avec votre dégaine de crevette, faites gaffe à pas vous faire bouffer par un mérou.'}
+{'audio_file': 'au_gros_sel_qu_est_ce_que_c_est_ces_conneries_vous_me_prenez_pour_une_epaule_d_agneau.mp3', 'quote_associated': "Au gros sel ? Qu'est ce que c'est que ces conneries ? Vous me prenez pour une épaule d'agneau !"}
+{'audio_file': 'avec_sa_couille.mp3', 'quote_associated': 'Avec votre dégaine de crevette, faites gaffe à pas vous faire bouffer par un mérou.'}
+{'audio_file': 'au_gros_sel_qu_est_ce_que_c_est_ces_conneries_vous_me_prenez_pour_une_epaule_d_agneau.mp3', 'quote_associated': "Au gros sel ? Qu'est ce que c'est que ces conneries ? Vous me prenez pour une épaule d'agneau !"}
+{'audio_file': 'avec_sa_couille.mp3', 'quote_associated': 'Avec votre dégaine de crevette, faites gaffe à pas vous faire bouffer par un mérou.'}
+est que ces conneries ? Vous me prenez pour une épaule d'agneau !"}
+{'audio_file': 'avec_sa_couille.mp3', 'quote_associated': 'Avec votre dégaine de crevette, faites gaffe à pas vous faire bouffer par un mérou.'}
+{'audio_file': 'avez_de_la_chance.mp3', 'quote_associated': 'Vous avez de la chance d’être encore vivant.'}
+{'audio_file': 'ave_cesar.mp3', 'quote_associated': 'Couhillère, couhillère, couhillère\xa0!\xa0Ave Cesar\xa0!'}
+{'audio_file': 'bah_je_sais_pas_me_lacher_la_grappe_par_exemple.mp3', 'quote_associated': 'Bah, je sais pas me lâcher la grappe, par exemple.'}
+{'audio_file': 'bah_si_il_n_y_avait_que_les_oiseaux_elle_est_a_moitie_givree_de_toute_facon_on_ne_peut_pas_tout_relever_non_plus.mp3', 'quote_associated': 'Bah si y’avait que les oiseaux, elle est à moitié givrée, de toute façon on peut pas tout relever non plus.'}
+{'audio_file': 'bataille_de_fions.mp3', 'quote_associated': "Alors c'est ça, la stratégie moderne? Réunir cinq trous-de-balle en cercle et s'balancer des fions?"}
+{'audio_file': 'bien_manger_cest_important.mp3', 'quote_associated': "Alors c'est ça, la stratégie moderne? Réunir cinq trous-de-balle en cercle et s'balancer des fions?"}
+{'audio_file': 'bohort_arreter_devous_vexer_sans_arret_comme_une_grosse_dinde.mp3', 'quote_associated': 'Mais allez-y bon sang, magnez-vous le fion, espèce de grosse dinde !'}
+{'audio_file': 'bohort_arreter_de_vous_vexer_sans_arret_comme_une_grosse_dinde.mp3', 'quote_associated': 'Mais allez-y bon sang, magnez-vous le fion, espèce de grosse dinde !'}
+{'audio_file': 'bonjour_la_pedagogie.mp3', 'quote_associated': 'Bonjour la pédagogie !'}
+{'audio_file': 'bon_bah_aller_on_demarre_et_ouvrez_les_echauguettes.mp3', 'quote_associated': 'Bon bah, aller, on démarre et ouvrez les échauguettes !'}
+{'audio_file': 'bon_bah_je_vais_voir_ce_que_je_peux_faire.mp3', 'quote_associated': 'Bon bah, je vais voir ce que je peux faire.'}
+{'audio_file': 'bon_ben_revolte.mp3', 'quote_associated': "Bon ben, je fais la révolution tout seul dans mon coin, parce que j'en peux plus."}
+. Aaaaanglais\xa0! Mais c'est encore moins répandu."}
+{'audio_file': 'c-est-les-autres-qui-sont-cons.mp3', 'quote_associated': "C'est pas moi qu'explique mal, c'est les autres qui sont cons !"}
+{'audio_file': 'casuffit.mp3', 'quote_associated': 'Ça suffit !!! Ça suffit !!! Ça suffiiiiiiiit !!!'}
+{'audio_file': 'catastrophe.mp3', 'quote_associated': "C'est une catastrophe !"}
+. Aaaaanglais\xa0! Mais c'est encore moins répandu."}
+{'audio_file': 'c-est-les-autres-qui-sont-cons.mp3', 'quote_associated': "C'est pas moi qu'explique mal, c'est les autres qui sont cons !"}
+{'audio_file': 'casuffit.mp3', 'quote_associated': 'Ça suffit !!! Ça suffit !!! Ça suffiiiiiiiit !!!'}
+{'audio_file': 'catastrophe.mp3', 'quote_associated': "C'est une catastrophe !"}
+{'audio_file': 'ca_change_tout.mp3', 'quote_associated': 'Imperator\xa0! Aaaaah\xa0! Imperator\xa0! Ah ça fait du bien crénom\xa0! Ca me change de tous ces glands là… Votre tranquillité par‑ci, votre tranquillité par‑là… Ça, dis donc… Pour être tranquille, 24\xa0h sur\xa024 au plumard… À pioncer, à bouffer de la compote… Ça, c’est sûr que j’enchaîne pas les crises de nerf… Mais assieds‑toi là\xa0! On dirait que tu vas chanter une chanson\xa0! Allez\xa0!'}
+{'audio_file': 'ca_me_fait_gerber.mp3', 'quote_associated': 'Mais c’est incroyable, j’ai l’impression de bouffer de la terre avec de la bouse et du gravier, ça sent le poulailler, mais c’est du céleri et des oignons, c’est prodigieux.'}
+{'audio_file': 'ca_me_plait_qu_a_moitie.mp3', 'quote_associated': 'Le camp, il me plaît qu’à moitié.'}
+{'audio_file': 'ca_va_encore_faire_des_discussions_a_rallonge.mp3', 'quote_associated': 'Ça va encore faire des discussions à rallonge !'}
+{'audio_file': 'ca_va_oui_ca_va_vous_etes_content.mp3', 'quote_associated': 'Ça va\xa0? Oui, ça va, vous êtes content\xa0?!'}
+{'audio_file': 'ca_va_un_peu_trop_vite_pour_moi.mp3', 'quote_associated': 'Ça va un peu trop vite pour moi.'}
+{'audio_file': 'ca_vous_ennuie_si_je_vomis.mp3', 'quote_associated': 'Ça vous ennuie si je vomis ?'}
+{'audio_file': 'ca_vous_fait_pas_mal_a_la_tete_de_glandouiller.mp3', 'quote_associated': 'Ça vous ennuie si je vomis ?'}
+{'audio_file': 'centurion_caius_camilus_lulululu.mp3', 'quote_associated': 'J’vais vous dire\xa0: le jour où j’ai accepté d’être sénateur, j’aurais mieux fait de m’péter une jambe. Ça peut encore s’arranger.'}
+{'audio_file': 'cest_bien_fait.mp3', 'quote_associated': "Ouais c'est bien qu'on reste un peu dehors, comme ça j'pourrais vous mettre une grosse tarte en plein air."}
+{'audio_file': 'cest_bien_quon_reste_un_peu_dehors.mp3', 'quote_associated': "Ouais c'est bien qu'on reste un peu dehors, comme ça j'pourrais vous mettre une grosse tarte en plein air."}
+{'audio_file': 'cest_debile_cette_histoire.mp3', 'quote_associated': "C'est pas moi qu'explique mal, c'est les autres qui sont cons !"}
+{'audio_file': 'cest_de_la_merde.mp3', 'quote_associated': "Oubliez ce que je viens de dire. Le Graal, c'est de la merde."}
+{'audio_file': 'cest_dur.mp3', 'quote_associated': 'C’est dur !'}
+{'audio_file': 'cest_facile_on_peut_jouer_soit_avec_des_haricots_soit_avec_des_lentilles.mp3', 'quote_associated': "C'est facile\xa0: on peut jouer soit avec des haricots, soit avec des lentilles."}
+{'audio_file': 'cest_honteux.mp3', 'quote_associated': "J'ai tout entendu et c'est honteux !"}
+{'audio_file': 'cest_le_rendez_vous_des_glandus_la_ou_quoi.mp3', 'quote_associated': "C'est le rendez-vous des glandus là ou quoi ?"}
+{'audio_file': 'cest_moi_ou_il_y_a_une_ambiance_de_merde.mp3', 'quote_associated': "C'est moi ou il y a une ambiance de merde ?"}
+{'audio_file': 'cest_pas_des_fleches.mp3', 'quote_associated': 'Dieu\xa0! Depuis qu’vous êtes arrivé\xa0– ça fait quoi, ça fait deux-trois ans à peu près, enfin j’voudrais dire deux‑trois ans que le truc a bien pris, quoi, qu’les gens en parlent, tout ça\xa0– moi j’fais tout c’que j’peux pour mettre les gars au pas. La quête du Graal, le côté symbolique, la lumière, la salvation tout ça j’crois qu’c’est bien rentré. Parce que c’était pas gagné quand même. Moi les mectons d’la Table Ronde c’est pas des flèches, vous êtes au courant d’ça. Quand j’leur parle du Graal, eux ils cherchent un vase, et c’est marre. Si j’commence à m’lancer dans des explications comme quoi c’est pas l’objet qui est important mais le côté symbolique, le sang d’vot’fils, la vie éternelle alors là, les gars y me regardent avec des billes comme ça et puis y décrochent, ah hein, rideau\xa0! Alors j’crois que c’qu’y s’rait pas mal, si on veut faire un peu avancer l’histoire, voyez, ça s’rait de faire péter un signe, mais un truc commak, hein. Parce que la Dame du Lac c’est bien gentil, mais euh, comme y a que moi qui peux la voir c’est pas très encourageant pour les autres. Non au contraire, quand y m’voient causer tout seul, y s’demandent si j’ai pas carrément tourné la carte. Alorsné la carte. Alors voilà, faites c’que vous pouvez, quoi. J’compte sur vous. Donc euh… amen… enfin euh… deo gratias j’sais pu quoi… j’suis désolé j’ai pas eu le temps de potasser les formules.'}
+{'audio_file': 'cest_pas_faux1.mp3', 'quote_associated': 'C’est pas faux.'}
+{'audio_file': 'cest_pas_jo_le_rigolo.mp3', 'quote_associated': "Ah bah c'est sûr qu'c'est pas Jo l'Rigolo."}
+{'audio_file': 'cest_pas_une_sinecure.mp3', 'quote_associated': "C'est pas une sinécure d'être roi de Bretagne  "}
+{'audio_file': 'cest_plus_filiforme.mp3', 'quote_associated': "C'est carré-carré chez vous, hein ?"}
+{'audio_file': 'cest_prodigieux.mp3', 'quote_associated': 'Mais c’est incroyable, j’ai l’impression de bouffer de la terre avec de la bouse et du gravier, ça sent le poulailler, mais c’est du céleri et des oignons, c’est prodigieux.'}
+{'audio_file': 'cest_que_cest_pas_une_blague.mp3', 'quote_associated': "C'est pas une sinécure d'être roi de Bretagne !  "}
+{'audio_file': 'cest_qui_tout_ces_cons.mp3', 'quote_associated': "Mais c'est pas moi qu'explique mal, c'est les autres qui sont cons !"}
+{'audio_file': 'cest_tellement_facile_que_je_vais_peut_etre_systematise_le_processus.mp3', 'quote_associated': "C'est tellement facile que je vais peut-être systématiser le processus."}
+{'audio_file': 'cest_vrai_quelle_reste.mp3', 'quote_associated': "Ouais c'est bien qu'on reste un peu dehors, comme ça j'pourrais vous mettre une grosse tarte en plein air."}
+{'audio_file': 'chaque_fois_que_je_vais_a_un_balloche_je_picole_je_discute.mp3', 'quote_associated': ''}
+{'audio_file': 'charmant.mp3', 'quote_associated': ''}
+{'audio_file': 'chui_un_marteau_moi.mp3', 'quote_associated': 'Je lui rembourse mes genoux, et si il a filé la vérole à mes bêtes, chuis chuis un marteau moi !'}
+{'audio_file': 'commencez_pas_a_me_faire_chier.mp3', 'quote_associated': 'Chaque fois que je vais à un baloche, je picole, je discute.'}
+{'audio_file': 'comment.mp3', 'quote_associated': 'Ça pique trop de la vie, quoi\xa0: ça pique, ça lance, et derrière, comment ça re-pique trop.'}
+{'audio_file': 'compote.mp3', 'quote_associated': 'Imperator\xa0! Aaaaah\xa0! Imperator\xa0! Ah ça fait du bien crénom\xa0! Ca me change de tous ces glands là… Votre tranquillité par‑ci, votre tranquillité par‑là… Ça, dis donc… Pour être tranquille, 24h sur\xa024 au plumard… À pioncer, à bouffer de la compote… Ça, c’est sûr que j’enchaîne pas les crises de nerf… Mais assieds‑toi là\xa0! On dirait que tu vas chanter une chanson\xa0! Allez\xa0!'}        
+{'audio_file': 'coup_de_beche.mp3', 'quote_associated': "Quand on veut être sûr de son coup, mon petit bonhomme, on plante des carottes, on ne joue pas les chefs d'État !"}
+{'audio_file': 'coup_de_pied_aux_poules.mp3', 'quote_associated': "Pourquoi je peux pas avoir un chien moi ? […] Mais c'est juste pour mettre des coups de pied dedans ! […] Moi j'en ai marre de toujours donner des coups de pied aux poules !"}
+{'audio_file': 'crame_famille.mp3', 'quote_associated': 'Toi un jour je te crame ta famille, toi.'}
+{'audio_file': 'crame_ta_famille.mp3', 'quote_associated': 'Toi un jour je te crame ta famille, toi.'}
+{'audio_file': 'cuillere.mp3', 'quote_associated': 'Arthour\xa0!…\xa0Couhillère\xa0!'}
+{'audio_file': 'cuillere_2.mp3', 'quote_associated': 'Arthour !… Couhillère !'}
+{'audio_file': 'cuit_les_boules.mp3', 'quote_associated': "Chaque fois que je vais à un baloche, je picole, je discute.  \nJe lui rembourse mes genoux, et si il a filé la vérole à mes bêtes, chuis chuis un marteau moi !  \nCommencez pas à me faire chier.  \nÇa pique trop de la vie, quoi : ça pique, ça lance, et derrière, comment ça re-pique trop.  \nImperator ! Aaaaah ! Imperator ! Ah ça fait du bien crénom ! Ça me change de tous ces glands là… Votre tranquillité par‑ci, votre tranquillité par‑là… Ça, dis donc… Pour être tranquille, 24\xa0h sur\xa024 au plumard… À pioncer, à bouffer de la compote… Ça, c’est sûr que j’enchaîne pas les crises de nerf… Mais assieds‑toi là ! On dirait que tu vas chanter une chanson ! Allez !  \nQuand on veut être sûr de son coup, mon petit bonhomme, on plante des carottes, on ne joue pas les chefs d’État !  \nPourquoi je peux pas avoir un chien moi ? […] Mais c'est juste pour mettre des coups de pied dedans ! […] Moi j'en ai marre de toujours donner des coups de pied aux poules !  \nToi un jour je te crame ta famille, toi.  \nToi un jour je te crame ta famille, toi.  \nArthour !… Couhillère !  \nArthour !… Couhillère !  \nJe crois que je me suis coupé la gencive avec un grumeau cuit."}
+{'audio_file': 'c_est_cotelette_que_vous_comprenez_pas.mp3', 'quote_associated': 'C’est la côtelette que vous comprenez pas ?'}

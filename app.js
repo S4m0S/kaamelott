@@ -1,4 +1,3 @@
-
 const { Container, Row, Col, Card, Form, Button, Pagination, Spinner, Alert } = ReactBootstrap;
 const {
     useState,
@@ -18,18 +17,27 @@ function KaamelottApp() {
   const [saison, setSaison] = React.useState(new Set());
   const [auteur, setAuteur] = React.useState(new Set());
   const [pageActuelle, setPageActuelle] = React.useState(0);
+  const [error, setError] = React.useState(null);
 
 
   
    useEffect(() => {
     async function initialize() {
-        const resultat = await initObjects();
-        setPersonnage(resultat.setPersonnage);
-        setSaison(resultat.setSaison);
-        setAuteur(resultat.setAuteur);
-        setCitations(resultat.listeCitations);
+        try{
+            const resultat = await initObjects();
+            setPersonnage(resultat.setPersonnage);
+            setSaison(resultat.setSaison);
+            setAuteur(resultat.setAuteur);
+            setCitations(resultat.listeCitations);
+        }
+        catch (error){
+            setError("Impossible de se connecter à l'API, utilisez cette extension Chrome pour pouvoir y accéder : ")
+        }
     }
-    initialize();
+    
+        initialize();
+    
+    
   }, [])
 
   
@@ -43,8 +51,23 @@ function KaamelottApp() {
                 </h1>
             </Col>
         </Row>
-        <ShowSearchBar personnages={[...personnage]} saisons={[...saison]} auteurs={[...auteur]} setCitations={setCitations} setPageActuelle={setPageActuelle} />
-        <ShowCitations citations={citations} pageActuelle={pageActuelle} setPageActuelle={setPageActuelle} />
+        {
+            error ? ( <Alert>
+                {
+                <div>
+                    {error}
+                    <a style={{color: "red"}} href="https://chromewebstore.google.com/detail/lhobafahddgcelffkeicbaginigeejlf?utm_source=item-share-cb">https://chromewebstore.google.com/detail/lhobafahddgcelffkeicbaginigeejlf?utm_source=item-share-cb</a>
+                </div>
+                }
+            </Alert>
+        ) : (
+            <div>
+                <ShowSearchBar personnages={[...personnage]} saisons={[...saison]} auteurs={[...auteur]} setCitations={setCitations} setPageActuelle={setPageActuelle} />
+                <ShowCitations citations={citations} pageActuelle={pageActuelle} setPageActuelle={setPageActuelle} />
+            </div>
+        )
+        }
+        
     </Container>
   );
 }
@@ -235,29 +258,38 @@ function BoutonGetCitations({type, setCitations, personnages, saisons, auteurs, 
 
 // Composant Fonctionnel React pour afficher les citations
 function ShowCitations({citations, pageActuelle, setPageActuelle}){
+    const [audioFiles, setAudioFiles] = React.useState({});
 
-    
+    useEffect(() => {
+        // Load audio files for all citations on the current page
+        const loadAudioFiles = async () => {
+            const newAudioFiles = {};
+            for (const citation of chunkedCitations[pageActuelle]) {
+                const audioFile = await mapping(citation.citation);
+                newAudioFiles[citation.citation] = audioFile;
+            }
+            setAudioFiles(newAudioFiles);
+        };
+        loadAudioFiles();
+    }, [citations, pageActuelle]);
 
     const chunkedCitations = citations.length===1 ? [citations] : chunkArray(citations,10);
     
-    console.log(chunkedCitations.length)
-
     function nextPage() {
         if (pageActuelle < chunkedCitations.length - 1) {
-          setPageActuelle(pageActuelle + 1);
+            setPageActuelle(pageActuelle + 1);
         }
-      }
+    }
   
-      function previousPage() {
+    function previousPage() {
         if (pageActuelle > 0) {
-          setPageActuelle(pageActuelle - 1);
+            setPageActuelle(pageActuelle - 1);
         }
-      }
+    }
 
-      if (!citations || citations.length === 0) {
+    if (!citations || citations.length === 0) {
         return <div>Aucune citation à afficher</div>;
     }
-    
 
     return (
         <Container fluid style={{textAlign: "center"}}>
@@ -272,13 +304,18 @@ function ShowCitations({citations, pageActuelle, setPageActuelle}){
                     alt={`Photo de ${citation.infos.personnage}\n interpretez par ${citation.infos.acteur}`} 
                     personnage={citation.infos.personnage}
                     />
-                        
                     </Col>
                     - 
                     <Col>
-                        <audio controls>
-                        <source src={`https://kaamelott.chaudie.re/api/sounds/a_kadoc.mp3`} type="audio/mp3" />
-                        </audio>
+                    {
+                        audioFiles[citation.citation] ? (
+                            <audio controls>
+                            <source src={`https://kaamelott.chaudie.re/api/sounds/${audioFiles[citation.citation]}`} type="audio/mp3" />
+                            </audio>
+                        ) : (
+                            <Spinner animation="border" size="sm" />
+                        )
+                    }
                     </Col>
                 </Row>
             ))}
@@ -287,12 +324,46 @@ function ShowCitations({citations, pageActuelle, setPageActuelle}){
                     <button onClick={previousPage}>Page Précedente</button>
                     <button onClick={nextPage}>Page Suivante</button>
                 </div>
-            )
-            }
+            )}
         </Container>
     )
 }
 
+
+// Create a cache for the match.json data
+let matchDataCache = null;
+
+async function loadMatchData() {
+    if (!matchDataCache) {
+        try {
+            const response = await fetch('match.json');
+            matchDataCache = await response.json();
+        } catch (error) {
+            console.error('Error loading match.json:', error);
+            matchDataCache = [];
+        }
+    }
+    return matchDataCache;
+}
+
+async function mapping(citation) {
+   
+    return loadMatchData().then(data => {
+        
+        const normalizedCitation = citation.toLowerCase()
+            .replace(/\s+/g, ' ')
+            .replace(/['']/g, "'")
+            .trim();
+        
+        
+        let match = data.find(item => 
+            item.quote_associated.toLowerCase() === normalizedCitation
+            
+        );
+        console.log(match)
+        return match ? match.audio_file : '2_3_poils_de_Q.mp3'; // Au cas où on ne trouve rien
+    });
+}
 
 
 // Fonction pour rendre la liste plus petite, necessaire à la pagination
@@ -369,6 +440,10 @@ async function askApi({urlExtension}){
         const response = await fetch(urlToFetch, {
             method: "GET"
         });
+
+        if (!response.ok) {
+            throw new Error(`Erreur HTTP : ${response.status}`);
+        }
 
         const data = await response.json();
         return data;
