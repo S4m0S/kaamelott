@@ -339,7 +339,7 @@ function ShowCitations({citations, pageActuelle, setPageActuelle}){
 
 
 async function loadMatchData() {
-    const matchDataCache = null;
+    let matchDataCache = null;
     try {
         const response = await fetch('match.json');
         matchDataCache = await response.json();
