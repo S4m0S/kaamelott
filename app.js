@@ -113,6 +113,7 @@ function ShowSearchBar({personnages, saisons, auteurs, setCitations, setPageActu
                  onChange={(e) => setPersonnageSelectionner(e.target.value)}
                  disabled={personnageDisable}
                 >
+
                 <option value="">-- Selectionnez un personnage --</option>
                 {
                     personnages.map((personnage) => (
@@ -293,7 +294,10 @@ function ShowCitations({citations, pageActuelle, setPageActuelle}){
 
     return (
         <Container fluid style={{textAlign: "center"}}>
+
+
             <Row><Col xs = {5}>Citations</Col> <Col xs = {3}>Personnage et Photo</Col> <Col xs={2}>Audio</Col> </Row>
+
             {chunkedCitations.length > 0 && chunkedCitations[pageActuelle].map((citation, index) => (
                 <Row key={index}>
                     <Col xs={5}>{citation.citation}</Col>
@@ -321,6 +325,7 @@ function ShowCitations({citations, pageActuelle, setPageActuelle}){
             ))}
             { chunkedCitations.length > 1 && (
                 <div>
+                    
                     <button onClick={previousPage}>Page Précedente</button>
                     <button onClick={nextPage}>Page Suivante</button>
                 </div>
@@ -330,19 +335,19 @@ function ShowCitations({citations, pageActuelle, setPageActuelle}){
 }
 
 
-// Create a cache for the match.json data
-let matchDataCache = null;
+
+
 
 async function loadMatchData() {
-    if (!matchDataCache) {
-        try {
-            const response = await fetch('match.json');
-            matchDataCache = await response.json();
-        } catch (error) {
-            console.error('Error loading match.json:', error);
-            matchDataCache = [];
-        }
+    const matchDataCache = null;
+    try {
+        const response = await fetch('match.json');
+        matchDataCache = await response.json();
+    } catch (error) {
+        console.error('Error loading match.json:', error);
+        matchDataCache = [];
     }
+
     return matchDataCache;
 }
 
@@ -352,7 +357,6 @@ async function mapping(citation) {
         
         const normalizedCitation = citation.toLowerCase()
             .replace(/\s+/g, ' ')
-            .replace(/['']/g, "'")
             .trim();
         
         
@@ -374,7 +378,7 @@ function chunkArray(array, chunkSize) {
       result.push(chunk);
     }
     return result;
-  }
+}
 
 
 
@@ -410,23 +414,30 @@ async function initObjects(){
 function ImageImpport({ src, alt, personnage }) {
     const [imgError, setImgError] = React.useState(false);
   
+    function handleError() {
+      setTimeout(() => {
+        setImgError(true);
+      }, 200); // Attend 200ms avant de dire que c'est une erreur
+    }
+  
     if (imgError) {
       return <div style={{ fontStyle: 'italic', color: '#6c757d' }}>{alt}</div>;
     }
   
     return (
-        <div>
-      <img 
-        src={src} 
-        alt={alt} 
-        onError={() => setImgError(true)} 
-        style={{ maxWidth: "100px", borderRadius: "10px" }}
-      />
-      <br/>
-      <p>{personnage}</p>
+      <div>
+        <img 
+          src={src} 
+          alt={alt} 
+          onError={handleError} 
+          style={{ maxWidth: "100px", borderRadius: "10px" }}
+        />
+        <br/>
+        <p>{personnage}</p>
       </div>
     );
   }
+  
   
 
 
@@ -453,9 +464,6 @@ async function askApi({urlExtension}){
         throw error;
     }
 }
-
-
-
 
 // Rendu de l'application
 ReactDOM.render(<KaamelottApp />, document.getElementById('root'));
