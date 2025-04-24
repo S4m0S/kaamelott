@@ -336,18 +336,19 @@ function ShowCitations({citations, pageActuelle, setPageActuelle}){
 
 
 
-
+let matchDataCache = null;
 
 async function loadMatchData() {
-    let matchDataCache = null;
-    try {
-        const response = await fetch('match.json');
-        matchDataCache = await response.json();
-    } catch (error) {
-        console.error('Error loading match.json:', error);
-        matchDataCache = [];
-    }
 
+    if (!matchDataCache) {
+        try {
+            const response = await fetch('match.json');
+            matchDataCache = await response.json();
+        } catch (error) {
+            console.error('Error loading match.json:', error);
+            matchDataCache = [];
+        }
+    }    
     return matchDataCache;
 }
 
